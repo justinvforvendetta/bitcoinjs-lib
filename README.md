@@ -4,7 +4,7 @@
 
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
-A javascript Bitcoin library for node.js and browsers. Written in TypeScript, but committing the JS files to verify.
+A javascript Verge library for node.js and browsers. Written in TypeScript, but committing the JS files to verify.
 
 Released under the terms of the [MIT LICENSE](LICENSE).
 
@@ -16,7 +16,7 @@ Master is not stable; it is our development branch, and [only tagged releases ma
 ## Can I trust this code?
 > Don't trust. Verify.
 
-We recommend every user of this library and the [bitcoinjs](https://github.com/bitcoinjs) ecosystem audit and verify any underlying code for its validity and suitability,  including reviewing any and all of your project's dependencies.
+We recommend every user of this library and the [Verge](https://github.com/vergecurrency) ecosystem audit and verify any underlying code for its validity and suitability,  including reviewing any and all of your project's dependencies.
 
 Mistakes and bugs happen, but with your help in resolving and reporting [issues](https://github.com/bitcoinjs/bitcoinjs-lib/issues), together we can produce open source software that is:
 
@@ -33,7 +33,7 @@ Presently,  we do not have any formal documentation other than our [examples](#e
 
 ## Installation
 ``` bash
-npm install bitcoinjs-lib
+npm install vergejs-lib
 ```
 
 Typically we support the [Node Maintenance LTS version](https://github.com/nodejs/Release).
@@ -70,7 +70,7 @@ We are not an authorative source of best practice, but, at the very least:
 
 
 ### Browser
-The recommended method of using `bitcoinjs-lib` in your browser is through [Browserify](https://github.com/substack/node-browserify).
+The recommended method of using `vergejs-lib` in your browser is through [Browserify](https://github.com/substack/node-browserify).
 If you're familiar with how to use browserify, ignore this and carry on, otherwise, it is recommended to read the tutorial at https://browserify.org/.
 
 **NOTE**: We use Node Maintenance LTS features, if you need strict ES5, use [`--transform babelify`](https://github.com/babel/babelify) in conjunction with your `browserify` step (using an [`es2015`](https://babeljs.io/docs/plugins/preset-es2015/) preset).
